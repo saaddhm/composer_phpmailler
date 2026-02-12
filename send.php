@@ -14,8 +14,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com'; 
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'your email';
-    $mail->Password   = 'your password';
+    $mail->Username   = 'saaddhm3@gmail.com';
+    $mail->Password   = 'zepi tjiw jhld euuz';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
@@ -23,7 +23,7 @@ try {
     $mail->setFrom($email, $fname);
 
     // Destinataire
-    $mail->addAddress('email', 'Client');
+    $mail->addAddress('saaddhm3@gmail.com', 'Client');
 
     // Contenu
     $mail->isHTML(true);
